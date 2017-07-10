@@ -44,7 +44,7 @@ public class User1Controller{
 		User user = (User) model.asMap().get("user");
 		System.out.println(user);
 		// 设置user对象的username属性
-		user.setUsername("测试");
+		user.setUsername("测试1");
 		return "result1";
 	}
 	

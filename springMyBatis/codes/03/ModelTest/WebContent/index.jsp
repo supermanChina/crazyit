@@ -11,5 +11,6 @@
 <a href="loginForm1">测试Model</a><br><br>
 <a href="loginForm2">测试ModelMap</a><br><br>
 <a href="loginForm3">测试ModelAndView</a><br><br>
+<a href="loginForm33">测试ModelAndView传参</a><br><br>
 </body>
 </html>

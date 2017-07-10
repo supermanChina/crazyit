@@ -4,19 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>测试ModelMap</title>
+<title>测试ModelAndView</title>
 </head>
 <body>
-<h3>测试ModelMap</h3>
-<form action="login2" method="post">
+<h3>测试ModelAndView</h3>
+<form action="login33" method="post">
      <table>
          <tr>
          	<td><label>登录名: </label></td>
-             <td><input type="text" id="loginname2" name="loginname2" ></td>
+             <td><input type="text" id="loginname" name="loginname" ></td>
          </tr>
          <tr>
          	<td><label>密码: </label></td>
-             <td><input type="password" id="password2" name="password2"></td>
+             <td><input type="password" id="password" name="password"></td>
          </tr>
          <tr>
              <td><input id="submit" type="submit" value="登录"></td>
