@@ -38,8 +38,12 @@ public class DataBindingController{
 	@RequestMapping(value="/requestHeaderTest")
 	 public void requestHeaderTest(
 			 @RequestHeader("User-Agent") String userAgent,  
+			 @RequestHeader("Connection") String connection, 
+			 @RequestHeader("Host") String host, 
 		     @RequestHeader(value="Accept") String[] accepts) {
-		 logger.info("通过@requestHeaderTest获得数据： " + userAgent);
+		 logger.info("通过@requestHeaderTest获得数据：User-Agent= " + userAgent);
+		 logger.info("通过@requestHeaderTest获得数据：Host= " + host);
+		 logger.info("通过@requestHeaderTest获得数据：Connection= " + connection);
 		 for(String accept : accepts){
 			 logger.info(accept);
 		 }

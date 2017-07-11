@@ -8,6 +8,7 @@
 </head>
 <body>
 访问request作用范围域中的loginname对象：${requestScope.loginname }<br>
+访问session作用范围域中的loginname对象：${sessionScope.loginname }<br>
 <br>
 </body>
 </html>
