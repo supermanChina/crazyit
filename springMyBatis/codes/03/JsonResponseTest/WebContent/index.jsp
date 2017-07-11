@@ -19,7 +19,7 @@ function testResponseBody(){
             $("<td/>").html(this.id).appendTo(tr);
             $("<td/>").html(this.name).appendTo(tr);
             $("<td/>").html(this.author).appendTo(tr);
-            $("#booktable").append(tr);
+            $("#booktable").append(tr); 
         })
 	},"json");
 }
