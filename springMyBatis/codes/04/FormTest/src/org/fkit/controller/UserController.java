@@ -5,6 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 
@@ -37,6 +39,13 @@ public class UserController{
 		 // model中添加属性user，值是user对象
     	 model.addAttribute("user",user);
 	     return "registerForm2";
+	 }
+	 
+	 @RequestMapping(value="/register")
+	 @ResponseBody
+	 public String register(@RequestParam String username){
+		 System.out.println(username);
+		 return "OK";
 	 }
 
 }

@@ -24,6 +24,7 @@
 			<td><form:input path="age"/></td>
 		</tr>
 	</table>
-</form:form>
+		<input type="submit" value="登录">
+	</form:form>
 </body>
 </html>

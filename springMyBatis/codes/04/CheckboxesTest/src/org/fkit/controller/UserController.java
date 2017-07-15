@@ -72,7 +72,7 @@ public class UserController{
 	 public String registerForm3(Model model) {
 		 Employee employee = new Employee();
 		 Dept dept = new Dept(1,"开发部");
-		 // 为集合变量depts添加Dept对象，该对象id=1，name=开发吧，页面的checkbox复选框这一项会被选中
+		 // 为集合变量depts添加Dept对象，该对象id=1，name=开发部，页面的checkbox复选框这一项会被选中
 		 List<Dept> list = new ArrayList<Dept>();
 		 list.add(dept);
 		 employee.setDepts(list);
