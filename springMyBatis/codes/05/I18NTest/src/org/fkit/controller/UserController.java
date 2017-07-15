@@ -35,6 +35,7 @@ public class UserController{
 			 @PathVariable String formName,
 			 Model model){
 		User user = new User();
+		user.setLoginname("inputusername");
 		model.addAttribute("user",user);
 		// 动态跳转页面
 		return formName;
