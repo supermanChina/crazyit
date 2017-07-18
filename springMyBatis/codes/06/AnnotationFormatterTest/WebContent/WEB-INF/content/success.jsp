@@ -30,5 +30,10 @@
 	</tr>
 </table>
 </form:form>
+<h3>No Spring taglib format</h3>
+birthday=${user.birthday}<br>
+total=${user.total}<br>
+discount=${user.discount}<br>
+money=${user.money}<br>
 </body>
 </html>
