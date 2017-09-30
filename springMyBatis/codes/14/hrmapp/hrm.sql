@@ -1,5 +1,5 @@
 #创建数据库hrm_db
-CREATE DATABASE hrm_db3;
+CREATE DATABASE hrm_db;
 #使用数据库hrm_db
 USE hrm_db;
 #创建表dept_inf

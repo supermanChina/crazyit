@@ -39,7 +39,7 @@ public class UserDynaSqlProvider {
 	}	
 	// 动态查询总数量
 	public String count(Map<String, Object> params){
-		return new SQL(){
+		String sql = new SQL(){
 			{
 				SELECT("count(*)");
 				FROM(USERTABLE);
@@ -54,6 +54,7 @@ public class UserDynaSqlProvider {
 				}
 			}
 		}.toString();
+		return sql;
 	}	
 	
 	// 动态插入
